@@ -31,7 +31,7 @@ body {
   color: var(--cream);
   font-family: var(--font-sans);
   overflow-x: hidden;
-  cursor: none;
+  cursor: default;
 }
 
 /* Custom Cursor */
@@ -197,5 +197,5 @@ body.cursor-hover .cursor-ring {
   color: var(--cream);
 }
 
-a { cursor: none; }
-button { cursor: none; }
+a { cursor: pointer; }
+button { cursor: pointer; }
