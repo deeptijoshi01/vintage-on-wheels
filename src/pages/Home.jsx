@@ -5,21 +5,21 @@ import CarCard from "../components/CarCard";
 
 const heroSlides = [
   {
-    image: "/src/assets/4.png",
+    image: "/images/4.png",
     eyebrow: "New Collection",
     title: "Timeless",
     titleItalic: "Elegance",
     sub: "Where heritage meets modern refinement",
   },
   {
-    image: "/src/assets/6.png",
+    image: "/images/6.png",
     eyebrow: "Rare Classics",
     title: "Drive",
     titleItalic: "History",
     sub: "Every machine tells a story of its golden era",
   },
   {
-    image: "/src/assets/10.png",
+    image: "/images/10.png",
     eyebrow: "Premium Rental",
     title: "Born to be",
     titleItalic: "Remembered",
@@ -751,7 +751,7 @@ export default function Home() {
         <section className="story" id="about">
           <div className="story-inner">
             <div className="story-img-wrap reveal-left">
-              <img src="/src/assets/4.png" alt="Our Story" className="story-img" />
+              <img src="/images/4.png" alt="Our Story" className="story-img" />
               <div className="story-img-border" />
               <div className="story-img-label">Est. 1942 · Nashik, India</div>
             </div>
